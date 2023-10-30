@@ -79,7 +79,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ClientServiceApplication">
+  <component name="RunManager" selected="Spring Boot.WalletServiceApplication">
     <configuration name="ClientServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="client-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ma.enset.clientservice.ClientServiceApplication" />
