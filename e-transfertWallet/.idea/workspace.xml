@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2036e6f0-5f7d-4667-9e1c-ec219760a3e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../wallet-service/src/main/java/com/example/walletservice/web/WalletRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wallet-service/src/main/java/com/example/walletservice/WalletServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wallet-service/src/main/java/com/example/walletservice/WalletServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wallet-service/src/main/java/com/example/walletservice/entities/Wallet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wallet-service/src/main/java/com/example/walletservice/entities/Wallet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wallet-service/src/main/java/com/example/walletservice/service/WalletRestClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wallet-service/src/main/java/com/example/walletservice/service/TransferRestClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +52,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -127,11 +125,15 @@
       <option name="presentableId" value="Default" />
       <updated>1698652473303</updated>
       <workItem from="1698652474363" duration="1116000" />
-      <workItem from="1698654017091" duration="3702000" />
+      <workItem from="1698654017091" duration="4787000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
