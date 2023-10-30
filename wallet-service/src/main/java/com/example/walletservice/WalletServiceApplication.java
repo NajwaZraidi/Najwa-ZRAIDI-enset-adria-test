@@ -8,6 +8,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.openfeign.EnableFeignClients;
+import org.springframework.context.annotation.Bean;
 
 import java.util.UUID;
 
@@ -18,7 +19,8 @@ public class WalletServiceApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(WalletServiceApplication.class, args);
 	}
-     CommandLineRunner commandLineRunner(WalletRepository walletRepository, TransferEltsRepository transferEltsRepository){
+     @Bean
+	CommandLineRunner commandLineRunner(WalletRepository walletRepository, TransferEltsRepository transferEltsRepository){
 		return args -> {
 			// Exemple de création d'une entité Wallet
 			Wallet wallet = Wallet.builder()
