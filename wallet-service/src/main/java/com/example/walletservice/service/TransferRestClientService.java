@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 
 @FeignClient(name = "transfer-service")
-public interface WalletRestClientService {
+public interface TransferRestClientService {
 
     @GetMapping("/transfer/{id}?projection=transfer")
     public Transfer TransferById(@PathVariable Long id);
