@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2036e6f0-5f7d-4667-9e1c-ec219760a3e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../wallet-service/src/main/java/com/example/walletservice/entities/TransferElts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wallet-service/src/main/java/com/example/walletservice/entities/Wallet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wallet-service/src/main/java/com/example/walletservice/enums/TransferStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wallet-service/src/main/java/com/example/walletservice/model/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wallet-service/src/main/java/com/example/walletservice/model/Transfer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-service/src/main/java/ma/enset/clientservice/ClientServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client-service/src/main/java/ma/enset/clientservice/ClientServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-service/src/main/java/ma/enset/clientservice/entities/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client-service/src/main/java/ma/enset/clientservice/entities/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-service/src/main/java/ma/enset/clientservice/entities/ClientProjection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client-service/src/main/java/ma/enset/clientservice/entities/ClientProjection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../transfer-service/src/main/java/ma/enset/transferservice/entities/TransferProjection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wallet-service/src/main/java/com/example/walletservice/repository/TransferEltsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wallet-service/src/main/java/com/example/walletservice/repository/WalletRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wallet-service/src/main/java/com/example/walletservice/service/ClientRestClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wallet-service/src/main/java/com/example/walletservice/service/WalletRestClientService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transfer-service/src/main/java/ma/enset/transferservice/entities/Transfer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../transfer-service/src/main/java/ma/enset/transferservice/entities/Transfer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wallet-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../wallet-service/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +74,7 @@
       <recent name="C:\Users\najwa\OneDrive\Desktop\Najwa-ZRAIDI-enset-adria-test\e-transfertWallet" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ma.enset.transferservice.entities" />
       <recent name="com.example.walletservice.entities" />
     </key>
   </component>
@@ -131,7 +131,7 @@
       <option name="presentableId" value="Default" />
       <updated>1698652473303</updated>
       <workItem from="1698652474363" duration="1116000" />
-      <workItem from="1698654017091" duration="2563000" />
+      <workItem from="1698654017091" duration="3223000" />
     </task>
     <servers />
   </component>

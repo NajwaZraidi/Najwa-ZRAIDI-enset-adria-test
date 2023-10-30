@@ -24,4 +24,5 @@ public class Transfer {
     private String sourceWalletId;
     private String destinationWalletId;
     private TransferStatus status;
+
 }
