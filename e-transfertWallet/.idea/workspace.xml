@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2036e6f0-5f7d-4667-9e1c-ec219760a3e3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wallet-service/src/main/java/com/example/walletservice/WalletServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wallet-service/src/main/java/com/example/walletservice/WalletServiceApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +125,7 @@
       <option name="presentableId" value="Default" />
       <updated>1698652473303</updated>
       <workItem from="1698652474363" duration="1116000" />
-      <workItem from="1698654017091" duration="4787000" />
+      <workItem from="1698654017091" duration="5103000" />
     </task>
     <servers />
   </component>
