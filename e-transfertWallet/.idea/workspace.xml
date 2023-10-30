@@ -5,18 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2036e6f0-5f7d-4667-9e1c-ec219760a3e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../transfer-service/src/main/java/ma/enset/transferservice/entities/Transfer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../transfer-service/src/main/java/ma/enset/transferservice/enums/TransferStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../transfer-service/src/main/java/ma/enset/transferservice/repositories/TransferRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../transfer-service/src/main/java/ma/enset/transferservice/web/TransferController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config-service/src/main/java/ma/enset/configservice/ConfigServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../config-service/src/main/java/ma/enset/configservice/ConfigServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wallet-service/src/main/java/com/example/walletservice/entities/TransferElts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wallet-service/src/main/java/com/example/walletservice/entities/Wallet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wallet-service/src/main/java/com/example/walletservice/enums/TransferStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wallet-service/src/main/java/com/example/walletservice/model/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wallet-service/src/main/java/com/example/walletservice/model/Transfer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-service/src/main/java/ma/enset/clientservice/ClientServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client-service/src/main/java/ma/enset/clientservice/ClientServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-service/src/main/java/ma/enset/clientservice/entities/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client-service/src/main/java/ma/enset/clientservice/entities/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-service/src/main/java/ma/enset/clientservice/entities/ClientProjection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client-service/src/main/java/ma/enset/clientservice/entities/ClientProjection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../transfer-service/src/main/java/ma/enset/transferservice/TransferServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../transfer-service/src/main/java/ma/enset/transferservice/TransferServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../transfer-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../transfer-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +44,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/najwa/OneDrive/Desktop/Najwa-ZRAIDI-enset-adria-test/e-transfertWallet",
+    "last_opened_file_path": "C:/Users/najwa/OneDrive/Desktop/Najwa-ZRAIDI-enset-adria-test/wallet-service/src/main/java/com/example/walletservice",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -70,7 +71,11 @@
       <recent name="ma.enset.transferservice.enums" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\najwa\OneDrive\Desktop\Najwa-ZRAIDI-enset-adria-test\wallet-service\src\main\java\com\example\walletservice" />
       <recent name="C:\Users\najwa\OneDrive\Desktop\Najwa-ZRAIDI-enset-adria-test\e-transfertWallet" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.walletservice.entities" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -80,7 +85,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.TransferServiceApplication">
+  <component name="RunManager" selected="Spring Boot.ClientServiceApplication">
     <configuration name="ClientServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="client-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ma.enset.clientservice.ClientServiceApplication" />
@@ -126,7 +131,7 @@
       <option name="presentableId" value="Default" />
       <updated>1698652473303</updated>
       <workItem from="1698652474363" duration="1116000" />
-      <workItem from="1698654017091" duration="1197000" />
+      <workItem from="1698654017091" duration="2563000" />
     </task>
     <servers />
   </component>
